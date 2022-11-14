@@ -2,7 +2,7 @@ import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
 import baby from '../images/babybump/cover.JPG'
 import birthday from '../images/babybump/cover.JPG'
-import commercial from '../images/commercial/commercial.JPG'
+import commercial from '../images/commercial/commercial3.JPG'
 import couples from '../images/couples/cover.JPG'
 import events from '../images/events/cover.jpg'
 import grad from '../images/graduation/grad1.jpg'
