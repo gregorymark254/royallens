@@ -97,8 +97,8 @@ const About = () => {
                   <div className="md:flex space-x-2">
                     <span>02</span>
                     <div>
-                      <h3>Catalog photography</h3>
-                      <p>You need to carry out a professional subject shooting, as it is said - catalog shoot?</p>
+                      <h3>Catalogue photography</h3>
+                      <p>You need to carry out a professional subject shooting, as it is said - catalogue shoot?</p>
                     </div>
                   </div>
                   <div className="md:flex space-x-2">
@@ -126,12 +126,12 @@ const About = () => {
                 <div className="md:grid grid-cols-2 gap-2 py-6">
                   <div className="space-y-5 pt-3">
                     <img src="https://template59499.motopreview.com/mt-demo/59400/59499/mt-content/uploads/2017/04/mt-0959-home-icon4.png" alt="" />
-                    <h3>Portait Shoot</h3>
+                    <h3>Potrait Shoot</h3>
                     <p>A separate kind of photo art , that requires incredible skill of the photographer, is a portrait photography. In the portrait art everything is of great importance...</p>
                   </div>
                   <div className="space-y-5 pt-4">
                     <img src="https://template59499.motopreview.com/mt-demo/59400/59499/mt-content/uploads/2017/04/mt-0959-home-icon5.png" alt="" />
-                    <h3>Weeding Photograph</h3>
+                    <h3>Wedding Photograph</h3>
                     <p>Wedding photographs give an opportunity to experience the joyful moments of the day. In our studio we try hard to make the distance vanish between the loving hearts ...</p>
                   </div>
                   <div className="space-y-5 pt-4">
@@ -153,7 +153,7 @@ const About = () => {
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/graduation">Graduations Shoot</a></h3>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/baby">Baby Shoot</a></h3>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/street">Street Shoot</a></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/wedding">Weeding Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/wedding">Wedding Shoot</a></h3>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/baby-showers">Baby Shower Shoot</a></h3>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/baby">Baby Shoot</a></h3>
                 </div>
