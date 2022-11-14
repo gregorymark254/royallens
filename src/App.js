@@ -18,6 +18,7 @@ import Street from './pages/categories/Street'
 import Studio from './pages/categories/Studio'
 import Wedding from './pages/categories/Wedding'
 
+import ScrollToTop from './pages/ScrollToTop'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Route exact path="/wedding" element={<Wedding/>} />
         </Routes>
       </div>
+      <ScrollToTop/>
       <Footer/>
     </div>
   );

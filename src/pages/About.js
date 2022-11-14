@@ -1,10 +1,29 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { BsGlobe2 } from "react-icons/bs";
 import { FaFacebookF,FaInstagram } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 import carloz from '../images/portfolio/Royallensk.jpg'
 
 const About = () => {
+
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+
   return (
     <main>
       <div className="container mx-auto p-4">
@@ -45,11 +64,13 @@ const About = () => {
               <div className="md:grid grid-cols-3 gap-4">
                 <div className="py-4">
                   <h2 className="text-red-600">Photography</h2>
-                  <p>A separate kind of photo art , that requires incredible skill of the photographer, it is a portrait photographer.</p>
+                  <p>Photography for me is not looking, it’s feeling. If you can’t feel what you’re looking at, then you’re never going to get others to feel
+                      anything when they look at your pictures.
+                   </p>
                 </div>
                 <div className="py-4">
                   <h2 className="text-red-600">Videography</h2>
-                  <p>It's the promotion of your company in the market, winning the presentation of goods and services.</p>
+                  <p>For me, filmmaking combines everything. That’s the reason I’ve made cinema my life’s work. In films, painting and literature, theatre and music come together.</p>
                 </div>
                 <div className="py-4">
                   <h2 className="text-red-600">Software Development</h2>
@@ -89,7 +110,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="bg-red-600 text-white text-center py-8 space-y-5">
+                <div className="bg-orange-400 text-white text-center py-8 space-y-5">
                   <h1>Special Offers</h1>
                   <div>
                     <h3>Print Gallery</h3>
@@ -125,16 +146,16 @@ const About = () => {
                   </div>
                 </div>
                 
-                <div className="bg-red-600 text-white text-center p-4">
+                <div className="bg-orange-400 text-white text-center p-4">
                   <h1><u>Other Services</u></h1>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/birthday">Birthday Shoot</Link></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/events">Event Shoot</Link></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/graduation">Graduations Shoot</Link></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/baby">Baby Shoot</Link></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/street">Street Shoot</Link></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/wedding">Weeding Shoot</Link></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/baby-showers">Baby Shower Shoot</Link></h3>
-                  <h3 className="py-2 hover:border hover:border-slate-300"><Link to="/baby">Baby Shoot</Link></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/birthday">Birthday Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/events">Event Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/graduation">Graduations Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/baby">Baby Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/street">Street Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/wedding">Weeding Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/baby-showers">Baby Shower Shoot</a></h3>
+                  <h3 className="py-2 hover:border hover:border-slate-300"><a href="/baby">Baby Shoot</a></h3>
                 </div>
               </div>
             </div>
@@ -153,35 +174,80 @@ const About = () => {
           
           <article>
             <div className="reveal fade-left">
-              <div className="md:grid grid-cols-3 gap-4 mt-4">
-                <div className="shadow-2xl shadow-slate-600 p-4 space-y-4">
-                  <img className="rounded-full" src="https://themesfamily.com/tm/jabber/assets/img/team/2.png" alt="" />
-                  <h2>John Carloz</h2>
-                  <p>Photographer</p>
-                  <div className="flex justify-center space-x-3 text-lg">
-                    <a className="hover:text-green-700" href="https://carloz.vercel.app/"><BsGlobe2/></a>
-                    <a className="hover:text-indigo-600" href="/"><FaInstagram/></a>
-                    <a className="hover:text-blue-700" href="/"><FaFacebookF/></a>
+              <div className="grid md:grid-cols-3 gap-x-6 lg:gap-x-12">
+                <div className="mb-6 lg:mb-0">
+                  <div className="bg-white block rounded-lg shadow-lg">
+                    <div className="relative overflow-hidden bg-no-repeat bg-cover">
+                      <img src={carloz} className="w-full h-96 rounded-t-lg" alt="" />
+                      <a href="#!">
+                        <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
+                      </a>
+                      <svg className="absolute left-0 bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#fff"
+                          d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                        </path>
+                      </svg>
+                    </div>
+                    <div className="p-6">
+                      <h5 className="text-lg font-bold mb-4">John Carlos O</h5>
+                      <p className="text-gray-500 mb-4">CEO & Founder</p>
+                      <p className="text-gray-500 mb-4">Main Photographer & Videographer</p>
+                      <div className="flex justify-center space-x-3 text-lg">
+                        <a className="hover:text-orange-500 text-green-700" href="https://carloz.vercel.app/"><BsGlobe2/></a>
+                        <a className="hover:text-orange-500 text-indigo-600" href="https://instagram.com/_royal.lens.ke?utm_media=copy_link"><FaInstagram/></a>
+                        <a className="hover:text-orange-500 text-blue-700" href="https://www.facebook.com/profile.php?id=100008989771011"><FaFacebookF/></a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="shadow-2xl shadow-slate-600 p-4 space-y-4">
-                  <img className="rounded-full" src="https://themesfamily.com/tm/jabber/assets/img/team/1.png" alt="" />
-                  <h2>Lee</h2>
-                  <p>Videographer</p>
-                  <div className="flex justify-center space-x-3 text-lg">
-                    <a className="hover:text-green-700" href="/"><BsGlobe2/></a>
-                    <a className="hover:text-indigo-600" href="/"><FaInstagram/></a>
-                    <a className="hover:text-blue-700" href="/"><FaFacebookF/></a>
+
+                <div className="mb-6 lg:mb-0">
+                  <div className="bg-white block rounded-lg shadow-lg">
+                    <div className="relative overflow-hidden bg-no-repeat bg-cover">
+                      <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" className="w-full rounded-t-lg" alt=""/>
+                      <a href="#!">
+                        <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
+                      </a>
+                      <svg className="absolute left-0 bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#fff"
+                          d="M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,128C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                        </path>
+                      </svg>
+                    </div>
+                    <div className="p-6">
+                      <h5 className="text-lg font-bold mb-4">Lewis</h5>
+                      <p className="text-gray-500 mb-4">2nd Photographer</p>
+                      <div className="flex justify-center space-x-3 text-lg">
+                        <a className="hover:text-orange-500 text-green-700" href="/"><BsGlobe2/></a>
+                        <a className="hover:text-orange-500 text-indigo-600" href="/"><FaInstagram/></a>
+                        <a className="hover:text-orange-500 text-blue-700" href="/"><FaFacebookF/></a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="shadow-2xl shadow-slate-600 p-4 space-y-3">
-                  <img className="rounded-full" src="https://themesfamily.com/tm/jabber/assets/img/team/3.png" alt="" />
-                  <h2>Gregory Mark</h2>
-                  <p>Web Developer</p>
-                  <div className="flex justify-center space-x-3 text-lg">
-                    <a className="hover:text-green-700" href="https://gregorymark.netlify.app/"><BsGlobe2/></a>
-                    <a className="hover:text-indigo-600" href="/"><FaInstagram/></a>
-                    <a className="hover:text-blue-700" href="/"><FaFacebookF/></a>
+
+                <div className="">
+                  <div className="bg-white block rounded-lg shadow-lg">
+                    <div className="relative overflow-hidden bg-no-repeat bg-cover">
+                      <img src="https://gregorymark.netlify.app/static/media/img.42f46daf7ecd918e0b32.jpg" className="w-full rounded-t-lg" alt="" />
+                      <a href="#!">
+                        <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
+                      </a>
+                      <svg className="absolute left-0 bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#fff"
+                          d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                        </path>
+                      </svg>
+                    </div>
+                    <div className="p-6">
+                      <h5 className="text-lg font-bold mb-4">Gregory Mark</h5>
+                      <p className="text-gray-500 mb-4">Web Developer</p>
+                      <div className="flex justify-center space-x-3 text-lg">
+                        <a className="hover:text-orange-500 text-green-700" href="https://gregorymark.netlify.app/"><BsGlobe2/></a>
+                        <a className="hover:text-orange-500 text-indigo-600" href="/"><FaInstagram/></a>
+                        <a className="hover:text-orange-500 text-green-700" href="https://wa.me/+254798551778"><IoLogoWhatsapp/></a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from '../images/white.png'
 import { Link } from 'react-router-dom'
-import { FaFacebookF, FaInstagram,FaTwitter } from "react-icons/fa";
-
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
               <div className="flex space-x-2 mt-6">
                 <a className="hover:text-blue-700 text-2xl" href="https://www.facebook.com/profile.php?id=100008989771011"><FaFacebookF/></a>
                 <a className="hover:text-purple-700 text-2xl" href="https://instagram.com/_royal.lens.ke?utm_media=copy_link"><FaInstagram/></a>
-                <a className="hover:text-blue-700 text-2xl"  href="/"><FaTwitter/></a>
+                <a className="hover:text-green-700 text-2xl"  href="https://wa.me/+254111522255"><IoLogoWhatsapp/></a>
               </div>
             </div>
             <div className="grid mt-6">

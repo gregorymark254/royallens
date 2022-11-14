@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import { FaFacebookF,FaInstagram,FaTwitter } from "react-icons/fa"
+import { FaFacebookF,FaInstagram } from "react-icons/fa"
+import { IoLogoWhatsapp } from "react-icons/io";
 import  { Link } from 'react-router-dom'
 import logo from '../images/white.png'
 
@@ -10,7 +11,7 @@ const Nav = () => {
   };
 
   return (
-    <main>
+    <main className="nav">
       <div className="bg-black text-white">
         <div className="container mx-auto p-4">
           <nav className='flex justify-between items-center  px-4'>
@@ -35,7 +36,7 @@ const Nav = () => {
             <div className='hidden md:flex space-x-2'>
               <a className="hover:text-blue-700 text-xl" href="https://www.facebook.com/profile.php?id=100008989771011"><FaFacebookF/></a>
               <a className="hover:text-purple-700 text-xl" href="https://instagram.com/_royal.lens.ke?utm_media=copy_link"><FaInstagram/></a>
-              <a className="hover:text-blue-700 text-xl"  href="/"><FaTwitter/></a>
+              <a className="hover:text-green-700 text-xl"  href="https://wa.me/+254111522255"><IoLogoWhatsapp/></a>
             </div>
 
             {/* Responsive Nav */}
@@ -72,7 +73,7 @@ const Nav = () => {
                 <div className="flex space-x-2">
                   <a className="hover:text-blue-700 text-2xl" href="https://www.facebook.com/profile.php?id=100008989771011"><FaFacebookF/></a>
                   <a className="hover:text-purple-700 text-2xl" href="https://instagram.com/_royal.lens.ke?utm_media=copy_link"><FaInstagram/></a>
-                  <a className="hover:text-blue-700 text-2xl"  href="/"><FaTwitter/></a>
+                  <a className="hover:text-green-700 text-2xl"  href="https://wa.me/+254111522255"><IoLogoWhatsapp/></a>
                 </div>
               </div>
             )}

@@ -16,13 +16,13 @@ const Contact = () => {
 
         <section className="md:flex p-6">
           <div className="w-full p-2 mr-14">
-            <h2>Get in touch!</h2>
-            <h4>Please feel free to contact us using the form below.</h4>
-            <form className="grid">
+            <h2>Get in touch with us today.</h2>
+            <form action="mailto:royallenske@gmail.com" method="post" enctype="text/plain" className="grid">
               <label htmlFor="name">
                 <input 
                   type="text" 
                   required 
+                  name="name"
                   placeholder="Your Name" 
                   className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500   w-full rounded-md focus:ring-1"
                 />
@@ -31,26 +31,18 @@ const Contact = () => {
                 <input 
                   type="email" 
                   required 
+                  name="email"
                   placeholder="Your Email" 
                   className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500  w-full rounded-md  focus:ring-1"
                 />
               </label>
-              <select name="" id=""
-                required
-                className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500   w-full rounded-md focus:ring-1">
-                <option value="6">What service did you want?</option>
-                <option value="5">Birthday shoot</option>
-                <option value="4">Event shoot</option>
-                <option value="1">Commercial shoot</option>
-                <option value="3">Street shoot</option>
-                <option value="2">Vediography</option>
-              </select>
-              <label htmlFor="message">
-                <textarea cols="30" rows="5"
-                  required 
-                  placeholder="Your Message" 
-                  className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500  w-full rounded-md focus:ring-1"
-                ></textarea>
+              <label htmlFor="number">
+                <input 
+                  type="text" 
+                  name="number"
+                  placeholder="Phone Number *(Optional)" 
+                  className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500  w-full rounded-md  focus:ring-1"
+                />
               </label>
               <p>How did you hear about us?</p>
               <label htmlFor="about">Instagram &nbsp;
@@ -63,9 +55,35 @@ const Contact = () => {
                 <input type="radio" id="htm" name="fav_language" value="HTM" />
               </label>
               <label htmlFor="about">Others. &nbsp;
-                <input type="radio" id="hl" name="fav_language" value="HL" />
+                <input 
+                  type="text" 
+                  placeholder="If others how?" 
+                  required
+                  name="about"
+                  className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500  w-full rounded-md  focus:ring-1"
+                />
               </label>
-              <button className="bg-red-600 text-white mt-1 px-3 py-2">Send Message</button>
+              <label htmlFor="message">
+                <textarea cols="30" rows="5"
+                  required 
+                  name="message"
+                  placeholder="Description of service(s) you want" 
+                  className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500  w-full rounded-md focus:ring-1"
+                ></textarea>
+              </label>
+              <label htmlFor="number">
+                <input 
+                  type="text" 
+                  name="budget"
+                  placeholder="Budget *(Optional)" 
+                  className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500  w-full rounded-md  focus:ring-1"
+                />
+              </label>
+              <p>Confirm your booking?</p>
+              <label htmlFor="about">
+                <input type="checkbox" name="confirm" required />
+              </label>
+              <button type="submit" className="bg-red-600 text-white mt-1 px-3 py-2">Send Message</button>
             </form>
           </div>
           <div className="md:w-full p-2 space-y-6">
@@ -77,12 +95,11 @@ const Contact = () => {
             <div>
               <h3><b>Phones:</b></h3>
               <h5>+254 111 522 255</h5>
-              <h5>+254 111 522 255</h5>
+              <h5>+254 793 621 329</h5>
             </div>
             <div>
               <h3><b>Mail:</b></h3>
-              <h5>royallens@gmail.com</h5>
-              <h5>odhiambojohnarloz@gmail.com</h5>
+              <h5>royallenske@gmail.com</h5>
             </div>
             <br />
             <div className="flex space-x-3">

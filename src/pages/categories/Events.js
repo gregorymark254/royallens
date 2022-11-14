@@ -2,47 +2,130 @@ import React from 'react'
 
 const Events = () => {
   return (
-    <div>
+    <main>
       <section id="feature">
-            <div className="title-text">
-              <p><b>Events Shoot</b></p>
+        <div className="title-text">
+          <p><b>Events Shoot</b></p>
+        </div>
+      </section>
+      <div className="container mx-auto p-4">
+        <div className="grid lg:grid-cols-3 gap-6">
+          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <div>
+              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                >
+                <div className="flex justify-start items-end h-full">
+                  <h5 className="text-lg font-bold text-white m-6">Hollywood exhibition</h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  ></div>
+              </div>
             </div>
-          </section>
-      <section className="overflow-hidden text-gray-700">
-        <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
-          <div className="flex flex-wrap -m-1 md:-m-2">
-            <div className="flex flex-wrap w-1/2">
-              <div className="w-1/2 p-1 md:p-2">
-                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"/>
+          </div>
+
+          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <div>
+              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                >
+                <div className="flex justify-start items-end h-full">
+                  <h5 className="text-lg font-bold text-white m-6">Genius Loci</h5>
+                </div>
               </div>
-              <div className="w-1/2 p-1 md:p-2">
-                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"/>
-              </div>
-              <div className="w-full p-1 md:p-2">
-                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"/>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  ></div>
               </div>
             </div>
-            <div className="flex flex-wrap w-1/2">
-              <div className="w-full p-1 md:p-2">
-                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"/>
+          </div>
+
+          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://mdbootstrap.com/img/new/standard/city/045.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <div>
+              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                >
+                <div className="flex justify-start items-end h-full">
+                  <h5 className="text-lg font-bold text-white m-6">Big Apple</h5>
+                </div>
               </div>
-              <div className="w-1/2 p-1 md:p-2">
-                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"/>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  ></div>
               </div>
-              <div className="w-1/2 p-1 md:p-2">
-                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"/>
+            </div>
+          </div>
+
+          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://mdbootstrap.com/img/new/standard/city/047.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <div>
+              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                >
+                <div className="flex justify-start items-end h-full">
+                  <h5 className="text-lg font-bold text-white m-6">Sun City</h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  ></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://mdbootstrap.com/img/new/standard/city/048.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <div>
+              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                >
+                <div className="flex justify-start items-end h-full">
+                  <h5 className="text-lg font-bold text-white m-6">Paris flavor</h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  ></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://mdbootstrap.com/img/new/standard/city/049.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <div>
+              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                >
+                <div className="flex justify-start items-end h-full">
+                  <h5 className="text-lg font-bold text-white m-6">Sky is the limit</h5>
+                </div>
+              </div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  ></div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </main>
   )
 }
 

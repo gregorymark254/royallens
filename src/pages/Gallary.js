@@ -1,11 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { BsArrowRight } from "react-icons/bs";
-import image1 from '../images/client/Royallenske.JPG'
-import image2 from '../images/client/Royallenskee.JPG'
-import image3 from '../images/client/Royallenskeee.JPG'
-import image4 from '../images/client/fashion.JPG'
-import image5 from '../images/client/fashionn.JPG'
+import baby from '../images/babybump/cover.JPG'
+import birthday from '../images/babybump/cover.JPG'
+import commercial from '../images/commercial/commercial.JPG'
+import couples from '../images/couples/cover.JPG'
+import events from '../images/events/cover.jpg'
+import grad from '../images/graduation/grad1.jpg'
+import person from '../images/personal/cover.jpg'
+import potrait from '../images/potrait/potrait.jpg'
+import street from '../images/street/street1.jpg'
+import studio from '../images/studio/cover.jpg'
+import wedding from '../images/wedding/cover.jpg'
 
 const Gallary = () => {
 
@@ -36,32 +41,32 @@ const Gallary = () => {
           </div>
         </section>
         <div className="text-center pb-6">
-          <p>ROYAL LENS has photographers for all specialties (or at least all the G-rated ones). Click to see portfolio samples.</p>
-          <p>EVERY PHOTO TELLS A STORY.</p>
+          <p><b className="text-orange-400 font-bold">ROYAL LENS</b> has photographers for all specialties (or at least all the G-rated ones). Click to see portfolio samples.</p>
+          <p><b>EVERY PHOTO TELLS A STORY.</b></p>
         </div>
 
         
         <div className="md:grid grid-cols-3 gap-6 text-center client">
           <div className="hover:brightness-50 py-4">
-            <Link to="/potraits">
-              <img src={image1} alt="portaits" width="400" height="300" />
+            <a href="/potraits">
+              <img src={potrait} alt="portaits" width="400" height="300" />
               <h2>Portaits</h2>
               <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-            </Link>
+            </a>
           </div>
           <div className="hover:brightness-50 py-4">
-            <Link to="/personal">
-              <img src={image2} alt="portaits" width="400" height="300" />
+            <a href="/personal">
+              <img src={person} alt="portaits" width="400" height="300" />
               <h2>Personal Shoots</h2>
-              <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-            </Link>
+              <p className="flex justify-center items-center animate-bounce">Be yourself &nbsp;<BsArrowRight/></p>
+            </a>
           </div>
           <div className="hover:brightness-50 py-4">
-            <Link to="/studio">
-              <img src={image3} alt="portaits" width="400" height="300" />
+            <a href="/studio">
+              <img src={studio} alt="portaits" width="400" height="300" />
               <h2>Studio Shot</h2>
-              <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-            </Link>
+              <p className="flex justify-center items-center animate-bounce">Capture your imaginations &nbsp;<BsArrowRight/></p>
+            </a>
           </div>
         </div>
 
@@ -69,25 +74,25 @@ const Gallary = () => {
           <div className="reveal fade-bottom">
             <div className="md:grid grid-cols-3 gap-6 text-center client">
               <div className="hover:brightness-50 py-4">
-                <Link to="/events">
-                  <img src={image4} alt="portaits" width="400" height="300" />
+                <a href="/events">
+                  <img src={events} alt="portaits" width="400" height="300" />
                   <h2>Events</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">Creating the best day &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
               <div className="hover:brightness-50 py-4">
-                <Link to="/birthday">
-                  <img src={image5} alt="portaits" width="400" height="300" />
+                <a href="/birthday">
+                  <img src={birthday} alt="portaits" width="400" height="300" />
                   <h2>Birthday</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">It's your special day &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
               <div className="hover:brightness-50 py-4">
-                <Link to="/street">
-                  <img src={image2} alt="portaits" width="400" height="300" />
+                <a href="/street">
+                  <img src={street} alt="portaits" width="400" height="300" />
                   <h2>Street</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">Get out there and live a little &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
             </div>
           </div>
@@ -97,25 +102,25 @@ const Gallary = () => {
           <div className="reveal fade-bottom">
             <div className="md:grid grid-cols-3 gap-6 text-center client">
               <div className="hover:brightness-50 py-4">
-                <Link to="/couples">
-                  <img src={image4} alt="portaits" width="400" height="300" />
+                <a href="/couples">
+                  <img src={couples} alt="portaits" width="400" height="300" />
                   <h2>Couples</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">All you need is love. &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
               <div className="hover:brightness-50 py-4">
-                <Link to="/baby-showers">
-                  <img src={image5} alt="portaits" width="400" height="300" />
+                <a href="/baby-showers">
+                  <img src={baby} alt="portaits" width="400" height="300" />
                   <h2>Baby Showers</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">Dream big, little one &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
               <div className="hover:brightness-50 py-4">
-                <Link to="/baby">
-                  <img src={image2} alt="portaits" width="400" height="300" />
+                <a href="/baby">
+                  <img src={baby} alt="portaits" width="400" height="300" />
                   <h2>Baby Bump</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">The best is yet to come &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
             </div>
           </div>
@@ -125,25 +130,25 @@ const Gallary = () => {
           <div className="reveal fade-bottom">
             <div className="md:grid grid-cols-3 gap-6 text-center client">
               <div className="hover:brightness-50 py-4">
-                <Link to="/graduation">
-                  <img src={image5} alt="portaits" width="400" height="300" />
+                <a href="/graduation">
+                  <img src={grad} alt="portaits" width="400" height="300" />
                   <h2>Graduation</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">You did it,congatulations &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
               <div className="hover:brightness-50 py-4">
-                <Link to="/wedding">
-                  <img src={image2} alt="portaits" width="400" height="300" />
+                <a href="/wedding">
+                  <img src={wedding} alt="portaits" width="400" height="300" />
                   <h2>Weddings</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">Best wishes! &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
               <div className="hover:brightness-50 py-4">
-                <Link to="/commercial">
-                  <img src={image2} alt="portaits" width="400" height="300" />
+                <a href="/commercial">
+                  <img src={commercial} alt="portaits" width="400" height="300" />
                   <h2>Commercial</h2>
-                  <p className="flex justify-center items-center animate-bounce">The beauty of moments &nbsp;<BsArrowRight/></p>
-                </Link>
+                  <p className="flex justify-center items-center animate-bounce">Add Value &nbsp;<BsArrowRight/></p>
+                </a>
               </div>
             </div>
           </div>
