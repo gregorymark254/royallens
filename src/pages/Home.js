@@ -1,7 +1,7 @@
 import React from 'react'
 import 'tw-elements';
 import img2 from '../images/hero/COVER.jpg'
-import img1 from '../images/hero/COVER.jpg'
+import img1 from '../images/hero/COVER4.jpg'
 import img3 from '../images/hero/COVER.jpg'
 import erick from '../images/client/erick.jpg'
 import sonia from '../images/client/sonia.jpg'
