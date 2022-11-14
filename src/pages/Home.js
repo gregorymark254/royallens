@@ -72,7 +72,7 @@ const Home = () => {
               alt=""
             />
             <div className="carousel-caption hidden md:block absolute text-center word">
-              <h5 className="text-5xl">Royal Lens Photography.</h5>
+              <h5 className="text-5xl">Royal Lens Ke.</h5>
               <p>Capture your best moments.</p>
             </div>
           </div>
