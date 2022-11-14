@@ -169,7 +169,7 @@ const Home = () => {
           <div className="text-center">
             <section id="feature">
               <div className="title-text">
-                <p><b>People i've worked with.</b></p>
+                <p><b>Some of the people I've worked with.</b></p>
               </div>
             </section>
             
@@ -201,7 +201,7 @@ const Home = () => {
               <article>
                 <div className="reveal fade-bottom">
                   <img src={glen} alt="" />
-                  <p>Glen Fildich</p>
+                  <p>Glen Fiddich</p>
                   </div>
               </article>
               <article>
