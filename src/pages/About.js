@@ -110,7 +110,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="bg-orange-400 text-white text-center py-8 space-y-5">
+                <div className="bg-[#EF9A53] text-white text-center py-8 space-y-5">
                   <h1>Special Offers</h1>
                   <div>
                     <h3>Print Gallery</h3>
@@ -146,7 +146,7 @@ const About = () => {
                   </div>
                 </div>
                 
-                <div className="bg-orange-400 text-white text-center p-4">
+                <div className="bg-[#EF9A53] text-white text-center p-4">
                   <h1><u>Other Services</u></h1>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/birthday">Birthday Shoot</a></h3>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/events">Event Shoot</a></h3>
@@ -178,7 +178,7 @@ const About = () => {
                 <div className="mb-6 lg:mb-0">
                   <div className="bg-white block rounded-lg shadow-lg">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                      <img src={carloz} className="w-full h-96 rounded-t-lg" alt="" />
+                      <img src={carloz} className="w-full h-full rounded-t-lg" alt="" />
                       <a href="#!">
                         <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                       </a>
@@ -204,7 +204,7 @@ const About = () => {
                 <div className="mb-6 lg:mb-0">
                   <div className="bg-white block rounded-lg shadow-lg">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                      <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" className="w-full rounded-t-lg" alt=""/>
+                      <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" className="w-full h-full rounded-t-lg" alt=""/>
                       <a href="#!">
                         <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                       </a>
@@ -229,7 +229,7 @@ const About = () => {
                 <div className="">
                   <div className="bg-white block rounded-lg shadow-lg">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                      <img src="https://gregorymark.netlify.app/static/media/img.42f46daf7ecd918e0b32.jpg" className="w-full rounded-t-lg" alt="" />
+                      <img src="https://markgregory.netlify.app/static/media/img.42f46daf7ecd918e0b32.jpg" className="w-full h-full rounded-t-lg" alt="" />
                       <a href="#!">
                         <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                       </a>
