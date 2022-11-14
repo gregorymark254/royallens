@@ -71,7 +71,7 @@ const Home = () => {
               className="w-full min-h-screen"
               alt=""
             />
-            <div className="carousel-caption hidden md:block absolute text-center text-orange-400 word">
+            <div className="carousel-caption hidden md:block absolute text-center text-black word">
               <h5 className="text-5xl">Royal Lens Ke.</h5>
               <p>Capture your best moments.</p>
             </div>
@@ -138,7 +138,7 @@ const Home = () => {
           <h4>We capture your best moments and bring them to life.</h4>
           <br />
           <div className="text-box">
-            <h1>ROYAL LENS</h1>
+            <h1>ROYAL LENS KENYA</h1>
           </div>
           <a href="https://instagram.com/_royal.lens.ke?utm_media=copy_link" className="border-2 border-white hover:bg-white hover:text-black  px-6 py-3">EXPLORE</a>
         </div>
