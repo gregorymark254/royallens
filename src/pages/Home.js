@@ -71,7 +71,7 @@ const Home = () => {
               className="w-full min-h-screen"
               alt=""
             />
-            <div className="carousel-caption hidden md:block absolute text-center word">
+            <div className="carousel-caption hidden md:block absolute text-center text-orange-400 word">
               <h5 className="text-5xl">Royal Lens Ke.</h5>
               <p>Capture your best moments.</p>
             </div>
