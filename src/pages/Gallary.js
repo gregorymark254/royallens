@@ -82,7 +82,7 @@ const Gallary = () => {
               </div>
               <div className="hover:brightness-50 py-4">
                 <a href="/birthday">
-                  <img src={birthday} alt="portaits" width="400" height="300" />
+                  <img src="https://royalens.netlify.app/images/birth.jpg" alt="portaits" width="400" height="300" />
                   <h2>Birthday</h2>
                   <p className="flex justify-center items-center animate-bounce">It's your special day &nbsp;<BsArrowRight/></p>
                 </a>
@@ -110,7 +110,7 @@ const Gallary = () => {
               </div>
               <div className="hover:brightness-50 py-4">
                 <a href="/baby-showers">
-                  <img src={baby} alt="portaits" width="400" height="300" />
+                  <img src="https://royalens.netlify.app/images/shower1.jpg" alt="portaits" width="400" height="300" />
                   <h2>Baby Showers</h2>
                   <p className="flex justify-center items-center animate-bounce">Dream big, little one &nbsp;<BsArrowRight/></p>
                 </a>
