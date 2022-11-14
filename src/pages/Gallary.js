@@ -131,7 +131,7 @@ const Gallary = () => {
             <div className="md:grid grid-cols-3 gap-6 text-center client">
               <div className="hover:brightness-50 py-4">
                 <a href="/graduation">
-                  <img src={grad} alt="portaits" width="400" height="300" />
+                  <img src="https://royalens.netlify.app/images/grad1.jpg" alt="portaits" width="400" height="300" />
                   <h2>Graduation</h2>
                   <p className="flex justify-center items-center animate-bounce">You did it,congatulations &nbsp;<BsArrowRight/></p>
                 </a>
