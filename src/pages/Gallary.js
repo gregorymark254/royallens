@@ -10,7 +10,7 @@ import person from '../images/personal/cover.jpg'
 import potrait from '../images/potrait/potrait.jpg'
 import street from '../images/street/street1.jpg'
 import studio from '../images/studio/cover.jpg'
-import wedding from '../images/wedding/cover.jpg'
+import wedding from '../images/wedding/wed.jpg'
 
 const Gallary = () => {
 
