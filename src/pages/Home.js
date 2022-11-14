@@ -68,7 +68,7 @@ const Home = () => {
           <div className="carousel-item active relative float-left w-full landing">
             <img
               src={img2}
-              className="w-full h-auto"
+              className="w-full min-h-screen"
               alt=""
             />
             <div className="carousel-caption hidden md:block absolute text-center word">
@@ -79,7 +79,7 @@ const Home = () => {
           <div className="carousel-item relative float-left w-full landing">
             <img
               src={img1}
-              className="w-full h-auto"
+              className="w-full min-h-screen"
               alt=""
             />
             <div className="carousel-caption hidden md:block absolute text-center word">
@@ -90,7 +90,7 @@ const Home = () => {
           <div className="carousel-item relative float-left w-full landing">
             <img
               src={img3}
-              className="w-full h-auto"
+              className="w-full min-h-screen"
               alt=""
             />
             <div className="carousel-caption hidden md:block absolute text-center word">
