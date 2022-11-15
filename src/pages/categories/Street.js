@@ -12,14 +12,11 @@ const Street = () => {
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+            <img src="https://royalens.netlify.app/images/street1.jpg"
               className="w-full transition duration-300 ease-linear align-middle" alt="" />
             <div>
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                 >
-                <div className="flex justify-start items-end h-full">
-                  <h5 className="text-lg font-bold text-white m-6">Hollywood exhibition</h5>
-                </div>
               </div>
               <div className="hover-overlay">
                 <div
@@ -31,14 +28,11 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
+            <img src="https://royalens.netlify.app/images/street5.jpg"
               className="w-full transition duration-300 ease-linear align-middle" alt="" />
             <div>
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                 >
-                <div className="flex justify-start items-end h-full">
-                  <h5 className="text-lg font-bold text-white m-6">Genius Loci</h5>
-                </div>
               </div>
               <div className="hover-overlay">
                 <div
@@ -50,14 +44,11 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://mdbootstrap.com/img/new/standard/city/045.jpg"
+            <img src="https://royalens.netlify.app/images/street6.jpg"
               className="w-full transition duration-300 ease-linear align-middle" alt="" />
             <div>
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                 >
-                <div className="flex justify-start items-end h-full">
-                  <h5 className="text-lg font-bold text-white m-6">Big Apple</h5>
-                </div>
               </div>
               <div className="hover-overlay">
                 <div
@@ -88,7 +79,7 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://mdbootstrap.com/img/new/standard/city/048.jpg"
+            <img src="https://royalens.netlify.app/images/street7.jpg"
               className="w-full transition duration-300 ease-linear align-middle" alt="" />
             <div>
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
@@ -107,14 +98,11 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://mdbootstrap.com/img/new/standard/city/049.jpg"
+            <img src="https://royalens.netlify.app/images/street3.jpg"
               className="w-full transition duration-300 ease-linear align-middle" alt="" />
             <div>
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                 >
-                <div className="flex justify-start items-end h-full">
-                  <h5 className="text-lg font-bold text-white m-6">Sky is the limit</h5>
-                </div>
               </div>
               <div className="hover-overlay">
                 <div
