@@ -121,8 +121,6 @@ img {
     align-items: center;
     text-align: center;
     background-size: cover;
-    object-fit: cover;
-    object-position:center;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
