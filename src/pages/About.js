@@ -2,7 +2,6 @@ import React from 'react'
 import { BsGlobe2 } from "react-icons/bs";
 import { FaFacebookF,FaInstagram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import carloz from '../images/portfolio/Royallensk.jpg'
 
 const About = () => {
 
@@ -46,7 +45,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <img className="h-full object-cover" src={carloz} alt="" />
+            <img className="h-full object-cover" src="https://i.postimg.cc/J0JQG74R/Royallensk.jpg" alt="" loading="lazy" />
           </div>
         </div>
         <br />
@@ -178,7 +177,7 @@ const About = () => {
                 <div className="mb-6 lg:mb-0">
                   <div className="bg-white block rounded-lg shadow-lg">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                      <img src={carloz} className="w-full h-full rounded-t-lg" alt="" />
+                      <img src="https://i.postimg.cc/J0JQG74R/Royallensk.jpg"className="w-full h-full rounded-t-lg" alt="" loading="lazy" />
                       <a href="#!">
                         <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                       </a>
@@ -204,7 +203,7 @@ const About = () => {
                 <div className="mb-6 lg:mb-0">
                   <div className="bg-white block rounded-lg shadow-lg">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                      <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" className="w-full h-full rounded-t-lg" alt=""/>
+                      <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" className="w-full h-full rounded-t-lg" alt="" loading="lazy" />
                       <a href="#!">
                         <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                       </a>
@@ -229,7 +228,7 @@ const About = () => {
                 <div className="">
                   <div className="bg-white block rounded-lg shadow-lg">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                      <img src="https://markgregory.netlify.app/static/media/img.42f46daf7ecd918e0b32.jpg" className="w-full h-full rounded-t-lg" alt="" />
+                      <img src="https://markgregory.netlify.app/static/media/img.42f46daf7ecd918e0b32.jpg" className="w-full h-full rounded-t-lg" alt="" loading="lazy" />
                       <a href="#!">
                         <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                       </a>
