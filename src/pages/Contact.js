@@ -17,7 +17,7 @@ const Contact = () => {
         <section className="md:flex p-6">
           <div className="w-full p-2 mr-14">
             <h2>Get in touch with us today.</h2>
-            <form action="mailto:royallenske@gmail.com" method="post" enctype="text/plain" className="grid">
+            <form action="mailto:royallenske@gmail.com" method="post" encType="text/plain" className="grid">
               <label htmlFor="name">
                 <input 
                   type="text" 
