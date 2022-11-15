@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../images/white.png'
 import { Link } from 'react-router-dom'
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -12,7 +11,7 @@ const Footer = () => {
           <div className="md:grid grid-cols-3 gap-4 py-4 justify-between">
             <div className="mt-6">
               <div className="flex space-x-4 mb-4">
-                <img className="w-12 h-full" src={logo} alt="logo" />
+                <img className="w-12 h-full" src="https://i.postimg.cc/R0NpvBfZ/white.png" alt="logo" />
                 <h3><u>Royal Lens</u></h3>
               </div>
               <p>A team of enthusiasts who do their best to meet any client’s demand and provide them with perfectly made photos.We are a passionate freelance photography and videography service operating currently at Nairobi.</p>
