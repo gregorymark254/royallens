@@ -3,18 +3,6 @@ import 'tw-elements';
 import img2 from '../images/hero/COVER.jpg'
 import img1 from '../images/hero/COVER4.jpg'
 import img3 from '../images/hero/COVER.jpg'
-import erick from '../images/client/erick.jpg'
-import sonia from '../images/client/sonia.jpg'
-import notiflow from '../images/client/notiflow.jpg'
-import glen from '../images/client/glen.JPG'
-import teddy from '../images/client/teddy.JPG'
-import tatu from '../images/client/tatu.jpg'
-import sylvia from '../images/client/sylvia.jpg'
-import makenah from '../images/client/makenah.jpg'
-import njoki from '../images/client/njoki.jpg'
-import lian from '../images/client/lian.JPG'
-import samira from '../images/client/samira.jpg'
-import suzzy from '../images/client/suzzy.jpg'
 import { FaCameraRetro, FaServicestack,FaIdCard,FaBook } from "react-icons/fa";
 import { MdCall,MdPhotoLibrary } from "react-icons/md";
 
@@ -70,6 +58,7 @@ const Home = () => {
               src={img2}
               className="w-full min-h-screen"
               alt=""
+              loading="lazy"
             />
             <div className="carousel-caption hidden md:block absolute text-center word">
               <h5 className="text-5xl">Royal Lens Ke.</h5>
@@ -81,6 +70,7 @@ const Home = () => {
               src={img1}
               className="w-full min-h-screen"
               alt=""
+              loading="lazy"
             />
             <div className="carousel-caption hidden md:block absolute text-center word">
               <h5 className="text-5xl">Photography is poetry.</h5>
@@ -92,6 +82,7 @@ const Home = () => {
               src={img3}
               className="w-full min-h-screen"
               alt=""
+              loading="lazy"
             />
             <div className="carousel-caption hidden md:block absolute text-center word">
               <h5 className="text-5xl">Capturing Moments.</h5>
@@ -176,73 +167,73 @@ const Home = () => {
             <div className="md:grid grid-cols-4 gap-3 clients">
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={erick} alt="" />
+                  <img src="https://i.postimg.cc/FRxJktbM/erick.jpg" alt="" loading="lazy"/>
                   <p>Erick Omondi </p>
                 </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={sonia} alt="" />
+                  <img src="https://i.postimg.cc/kX0LGLjM/sonia.jpg" alt="" loading="lazy"/>
                   <p>Sonia Pinto</p>
                 </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={notiflow} alt="" />
+                  <img src="https://i.postimg.cc/PqR7Gc8k/notiflow.jpg" alt="" loading="lazy"/>
                   <p>Noti Flow</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={suzzy} alt="" />
+                  <img src="https://i.postimg.cc/CKYtHkTW/suzzy.jpg" alt="" loading="lazy"/>
                   <p>Suzzy</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={glen} alt="" />
+                  <img src="https://i.postimg.cc/G3QkHDq4/glen.jpg" alt="" loading="lazy"/>
                   <p>Glen Fiddich</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={teddy} alt="" />
+                  <img src="https://i.postimg.cc/65Cxr944/teddy.jpg" alt="" loading="lazy" />
                   <p>Teddy Treffers</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={tatu} alt="" />
+                  <img src="https://i.postimg.cc/yNPGfx7W/tatu.jpg" alt="" loading="lazy" />
                   <p>Tatu Dorothy</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={sylvia} alt="" />
+                  <img src="https://i.postimg.cc/RCsBSs5q/sylvia.jpg" alt="" loading="lazy" />
                   <p>Sylvia</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={makenah} alt="" />
+                  <img src="https://i.postimg.cc/V6J3d1c6/makenah.jpg" alt="" loading="lazy" />
                   <p>Makenah</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={njoki} alt="" />
+                  <img src="https://i.postimg.cc/9QcKyyjs/njoki.jpg" alt="" loading="lazy"/>
                   <p>Njoki Mburu</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={lian} alt="" />
+                  <img src="https://i.postimg.cc/SRD830J6/lian.jpg" alt="" loading="lazy" />
                   <p>Lian Brian</p>
                   </div>
               </article>
               <article>
                 <div className="reveal fade-bottom">
-                  <img src={samira} alt="" />
+                  <img src="https://i.postimg.cc/G2LWrYXk/samira.jpg" alt="" loading="lazy" />
                   <p>Samira</p>
                 </div>
               </article>
@@ -379,23 +370,19 @@ const Home = () => {
           {/* About */}
           <main className="md:grid grid-cols-2 py-16">
             <article>
-              <div className="reveal fade-left">
-                <div className="py-2">
-                  <img className src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-welcome1.jpg" alt="" />
-                  <p>Instead of an easel - a tripod. Instead of brushes - a camera that transmits feelings and emotions in one shot. And one day opening the album, reviewing pictures
-                    in the minds memories begin to emerge, the same emotions that had been on the day of the shooting. And by the will of a smile appears on the face, and maybe even tears of joy.
-                  </p>
-                </div>
+              <div className="reveal fade-left py-2">
+                <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-welcome1.jpg" alt="" loading="lazy" />
+                <p>Instead of an easel - a tripod. Instead of brushes - a camera that transmits feelings and emotions in one shot. And one day opening the album, reviewing pictures
+                  in the minds memories begin to emerge, the same emotions that had been on the day of the shooting. And by the will of a smile appears on the face, and maybe even tears of joy.
+                </p>
               </div>
             </article>
             <article>
-              <div className="reveal fade-right">
-                <div className="py-2">
-                  <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-welcome2.jpg" alt="" />
-                  <p>Photography has become an integral part of our lives. Agree, it is difficult sometimes to keep everything in memory only. Time is so fleeting. But it's nice to sit in the evening with 
-                    loved ones, open the album and relive all of your important moments. After working with us, you will see that this is just an excuse!
-                  </p>
-                </div>
+              <div className="reveal fade-right py-2">
+                <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-welcome2.jpg" alt="" loading="lazy" />
+                <p>Photography has become an integral part of our lives. Agree, it is difficult sometimes to keep everything in memory only. Time is so fleeting. But it's nice to sit in the evening with 
+                  loved ones, open the album and relive all of your important moments. After working with us, you will see that this is just an excuse!
+                </p>
               </div>
             </article>      
           </main>
@@ -405,18 +392,18 @@ const Home = () => {
       {/* Images */}
       <div className="md:grid grid-cols-2">
         <div>
-          <img className="w-full" src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery2-small2.jpg" alt="" />
+          <img className="w-full" src="https://i.postimg.cc/q7Trr8T7/RLK-8843.jpg" alt="" loading="lazy"/>
         </div>
         <div>
-          <img className="w-full" src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery2-small7.jpg" alt="" />
+          <img className="w-full" src="https://i.postimg.cc/vH4btYhG/RLK-8852.jpg" alt="" loading="lazy" />
         </div>
       </div>
       <div>
         <div className="md:grid grid-cols-4">
-          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small1.jpg" alt="" />
-          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small2.jpg" alt="" />
-          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small3.jpg" alt="" />
-          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small4.jpg" alt="" />
+          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small1.jpg" alt="" loading="lazy" />
+          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small2.jpg" alt="" loading="lazy" />
+          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small3.jpg" alt="" loading="lazy" />
+          <img src="https://template59495.motopreview.com/mt-demo/59400/59495/mt-content/uploads/2017/03/mt-0911-home-gallery1-small4.jpg" alt="" loading="lazy" />
         </div>
       </div>     
     </main>
