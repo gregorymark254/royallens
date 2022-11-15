@@ -113,6 +113,21 @@ img {
 }
 
 
+ .landing img{
+    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    object-fit: cover;
+    object-position:center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
 
 .word {
   display: flex;
