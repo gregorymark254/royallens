@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import { FaFacebookF,FaInstagram } from "react-icons/fa"
 import { IoLogoWhatsapp } from "react-icons/io";
 import  { Link } from 'react-router-dom'
-import logo from '../images/white.png'
 
 const Nav = () => {
   const [navIsShown, setnavIsShown] = useState(false);
@@ -17,7 +16,7 @@ const Nav = () => {
           <nav className='flex justify-between items-center px-4'>
             {/* Top Nav */}
             <div className="flex items-center ">
-              <img className="w-16 h-full" src={logo} alt="" />
+              <img className="w-16 h-full" src="https://i.postimg.cc/R0NpvBfZ/white.png" alt="" />
             </div>
             <ul className='hidden md:flex'>
               <li>
