@@ -1,8 +1,5 @@
 import React from 'react'
 import 'tw-elements';
-import img2 from '../images/hero/COVER.jpg'
-import img1 from '../images/hero/COVER4.jpg'
-import img3 from '../images/hero/COVER.jpg'
 import { FaCameraRetro, FaServicestack,FaIdCard,FaBook } from "react-icons/fa";
 import { MdCall,MdPhotoLibrary } from "react-icons/md";
 
@@ -55,7 +52,7 @@ const Home = () => {
         <div className="carousel-inner relative w-full overflow-hidden">
           <div className="carousel-item active relative float-left w-full landing">
             <img
-              src={img2}
+              src="https://i.postimg.cc/0yFfKSYq/COVER.jpg"
               className="w-full min-h-screen"
               alt=""
               loading="lazy"
@@ -67,7 +64,7 @@ const Home = () => {
           </div>
           <div className="carousel-item relative float-left w-full landing">
             <img
-              src={img1}
+              src="https://i.postimg.cc/P5Pyqy84/black20-3.jpg"
               className="w-full min-h-screen"
               alt=""
               loading="lazy"
@@ -79,7 +76,7 @@ const Home = () => {
           </div>
           <div className="carousel-item relative float-left w-full landing">
             <img
-              src={img3}
+              src="https://i.postimg.cc/YqX8kZj0/black2.jpg"
               className="w-full min-h-screen"
               alt=""
               loading="lazy"
