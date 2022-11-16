@@ -12,15 +12,12 @@ const Baby = () => {
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/bump1.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/zfSdghR3/Royallenske-0964.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -29,14 +26,11 @@ const Baby = () => {
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
             <img src="https://royalens.netlify.app/images/bump3.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -44,15 +38,12 @@ const Baby = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/bump4.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/VvNH1Nvv/Royallenske-1011.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -60,15 +51,12 @@ const Baby = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/bump10.JPG"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/PrPFRN0F/Royallenske-0981.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -76,15 +64,12 @@ const Baby = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/bump6.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/vHF33XLD/RLK-9046.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -92,19 +77,69 @@ const Baby = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/bump7.JPG"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/4dRmrK8v/RLK-8987.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
           </div>
+    
+     <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://i.postimg.cc/Pf4PR51Z/RLK-8907.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
+            <div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  ></div>
+              </div>
+            </div>
+          </div>
+    
+     <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://i.postimg.cc/NMGw9BLq/RLK-7465.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
+            <div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  ></div>
+              </div>
+            </div>
+          </div>
+    
+     <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://i.postimg.cc/G2MnvVsB/RLK-7468.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
+            <div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  ></div>
+              </div>
+            </div>
+          </div>
+    
+     <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://i.postimg.cc/ncNZdySB/RLK-7479.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
+            <div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  ></div>
+              </div>
+            </div>
+          </div>
+    
         </div>
       </div>
     </main>
