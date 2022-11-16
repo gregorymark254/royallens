@@ -12,15 +12,12 @@ const Street = () => {
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/street1.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/1374B7hq/RLK-9842.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -28,15 +25,12 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/street5.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/PrZMBZrJ/RLK-9847.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -44,15 +38,12 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/street6.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/59XgSThw/RLK-9865.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -60,18 +51,12 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://mdbootstrap.com/img/new/standard/city/047.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/wBSM8tBx/RLK-0832.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-                <div className="flex justify-start items-end h-full">
-                  <h5 className="text-lg font-bold text-white m-6">Sun City</h5>
-                </div>
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -79,18 +64,12 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/street7.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/76VF1cjv/DSC-4086.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-                <div className="flex justify-start items-end h-full">
-                  <h5 className="text-lg font-bold text-white m-6">Paris flavor</h5>
-                </div>
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -98,15 +77,12 @@ const Street = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/street3.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/rmPdphgT/RLK-9912.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
