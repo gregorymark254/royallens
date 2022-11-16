@@ -12,15 +12,12 @@ const Graduation = () => {
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/gradu1.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/YSXPKxSY/eventsb-5.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -28,15 +25,12 @@ const Graduation = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/gradu2.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/8PhnPG51/eventsb-2.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -44,15 +38,12 @@ const Graduation = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/gradu3.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/HsGhgnTZ/eventsb-8.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -60,15 +51,12 @@ const Graduation = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/gradu4.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/DyLVfBcK/RLK-8205.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -76,18 +64,12 @@ const Graduation = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://mdbootstrap.com/img/new/standard/city/048.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/3Rd6sBwV/RLK-8192.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-                <div className="flex justify-start items-end h-full">
-                  <h5 className="text-lg font-bold text-white m-6">Paris flavor</h5>
-                </div>
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
@@ -95,19 +77,56 @@ const Graduation = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/gradu5.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt="" />
+            <img src="https://i.postimg.cc/59HdTxYy/RLK-8198.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
             <div>
-              <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                >
-              </div>
               <div className="hover-overlay">
                 <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
                   ></div>
               </div>
             </div>
           </div>
+    
+         <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://i.postimg.cc/Dzq3C58g/RLK-8665.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
+            <div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  ></div>
+              </div>
+            </div>
+          </div>
+    
+         <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://i.postimg.cc/Y0D54ssp/RLK-8649.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
+            <div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  ></div>
+              </div>
+            </div>
+          </div>
+    
+          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="dark">
+            <img src="https://i.postimg.cc/zvvM1kX4/RLK-8624.jpg"
+              className="w-full transition duration-300 ease-linear align-middle" alt="" loading="lazy" />
+            <div>
+              <div className="hover-overlay">
+                <div
+                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
+                  ></div>
+              </div>
+            </div>
+          </div>
+    
         </div>
       </div>
     </main>
