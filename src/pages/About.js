@@ -145,7 +145,7 @@ const About = () => {
                   </div>
                 </div>
                 
-                <div className="bg-[#EF9A53] text-white text-center p-4">
+                <div className="bg-[#DC5F00] text-white text-center p-4">
                   <h1><u>Other Services</u></h1>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/birthday">Birthday Shoot</a></h3>
                   <h3 className="py-2 hover:border hover:border-slate-300"><a href="/events">Event Shoot</a></h3>
