@@ -25,19 +25,6 @@ const Baby = () => {
 
           <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="dark">
-            <img src="https://royalens.netlify.app/images/bump3.jpg"
-              className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
-            <div>
-              <div className="hover-overlay">
-                <div
-                  className="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out"
-                  ></div>
-              </div>
-            </div>
-          </div>
-
-          <div className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
-            data-mdb-ripple="true" data-mdb-ripple-color="dark">
             <img src="https://i.postimg.cc/VvNH1Nvv/Royallenske-1011.jpg"
               className="w-full transition duration-300 ease-linear align-middle" alt=""  loading="lazy" />
             <div>
