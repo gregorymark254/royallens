@@ -109,7 +109,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="bg-[#EF9A53] text-white text-center py-8 space-y-5">
+                <div className="bg-[#DC5F00] text-white text-center py-8 space-y-5">
                   <h1>Special Offers</h1>
                   <div>
                     <h3>Print Gallery</h3>
