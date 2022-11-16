@@ -64,7 +64,7 @@ img {
   line-height: 80px;
   color: transparent;
   -webkit-text-stroke: 1px rgb(244, 245, 237);
-  background: url("../src/images/hero/back.png");
+  background: url("https://i.postimg.cc/SR0MrLZW/back.png");
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
