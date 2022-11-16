@@ -303,7 +303,7 @@ const Home = () => {
                 <div className="carousel-item active relative float-left w-full text-center">
                   <div className="mt-12 mb-6 flex justify-center">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                      src="https://i.postimg.cc/J0JQG74R/Royallensk.jpg"
                       className="rounded-full w-24 h-24 shadow-lg"
                       alt=""
                     />
@@ -317,7 +317,7 @@ const Home = () => {
                 <div className="carousel-item relative float-left w-full text-center">
                   <div className="mt-12 mb-6 flex justify-center">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                      src="https://i.postimg.cc/PxVRj7pj/royal-lens-ke-10255.jpg"
                       className="rounded-full w-24 h-24 shadow-lg"
                       alt=""
                     />
@@ -331,7 +331,7 @@ const Home = () => {
                 <div className="carousel-item relative float-left w-full text-center">
                   <div className="mt-12 mb-6 flex justify-center">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                      src="https://i.postimg.cc/PqR7Gc8k/notiflow.jpg"
                       className="rounded-full w-24 h-24 shadow-lg"
                       alt=""
                     />
