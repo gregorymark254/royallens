@@ -63,7 +63,7 @@ const Nav = () => {
                     <a href="/about" className=" px-3 py-2 text-lg">About Us</a>
                   </li>
                   <li>
-                    <a href="/gallary" className=" px-3 py-2 text-lg">Gallary</a>
+                    <a href="/gallary" className=" px-3 py-2 text-lg">Gallery</a>
                   </li>
                   <li>
                     <a href="/contact" className="px-3 py-2 text-lg">Contact Us</a>
