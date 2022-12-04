@@ -52,7 +52,7 @@ const Home = () => {
         <div className="carousel-inner relative w-full overflow-hidden">
           <div className="carousel-item active relative float-left w-full landing">
             <img
-              src="https://i.postimg.cc/0yFfKSYq/COVER.jpg"
+              src="https://i.postimg.cc/yx23NQg8/DSC-0012.jpg"
               className="w-full min-h-screen"
               alt=""
               loading="lazy"
