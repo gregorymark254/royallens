@@ -110,7 +110,7 @@ const About = () => {
                 </div>
 
                 <div className="bg-[#DC5F00] text-white text-center py-8 space-y-5">
-                  <h1>Special Offers</h1>
+                  <h1>Coming Soon</h1>
                   <div>
                     <h3>Print Gallery</h3>
                     <p>Professional photographer with pleasure will implement your order.</p>
